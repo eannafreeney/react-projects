@@ -1,5 +1,5 @@
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -45,7 +45,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -135,7 +135,7 @@ p {
 }
 
 /*
-=============== 
+===============
 Stripe Styles
 ===============
 */
@@ -154,8 +154,8 @@ Stripe Styles
 }
 .nav-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 .btn {
   font-size: 1rem;
@@ -222,6 +222,7 @@ Stripe Styles
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
+
   }
   .toggle-btn {
     display: none;

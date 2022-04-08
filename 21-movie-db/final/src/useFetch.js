@@ -5,6 +5,7 @@ const useFetch = (urlParams) => {
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState({ show: false, msg: '' })
   const [data, setData] = useState(null)
+
   const fetchMovies = async (url) => {
     setIsLoading(true)
     try {

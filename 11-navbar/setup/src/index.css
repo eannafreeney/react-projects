@@ -1,5 +1,5 @@
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -45,7 +45,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -135,7 +135,7 @@ p {
 }
 
 /*
-=============== 
+===============
 Navbar
 ===============
 */
@@ -151,18 +151,18 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: #222;
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: var(--clr-primary-1);
+  color: #0099cc;
   transform: rotate(90deg);
 }
 .logo {
-  height: 40px;
+  height: 25px;
 }
 .links a {
   color: var(--clr-grey-3);
@@ -174,8 +174,7 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  color: #0099cc;
   padding-left: 1.5rem;
 }
 .social-icons {
@@ -212,7 +211,7 @@ nav {
   }
   .links a {
     padding: 0;
-    margin: 0 0.5rem;
+    margin: 0rem 0.5rem;
   }
   .links a:hover {
     padding: 0;
@@ -223,10 +222,10 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    color: #222;
     transition: var(--transition);
   }
   .social-icons a:hover {
-    color: var(--clr-primary-7);
+    color: #0099cc;
   }
 }
